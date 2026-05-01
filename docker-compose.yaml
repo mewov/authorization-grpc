@@ -1,0 +1,31 @@
+services:
+  authorizathion:
+    build: ./authorization
+    container_name: auth-server
+    ports:
+      - 44044:44044
+    environment:
+      SERVER_ADDRESS: ":44044"
+      SERVER_PASSWORD: "jwt-secret"
+      POSTGRES_ADDRESS: "postgres:5432"
+      POSTGRES_USER: "system"
+      POSTGRES_PASSWORD: "system"
+      POSTGRES_DB: "authorizathion"
+    volumes:
+      - ./logs:/logs
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:17
+    container_name: auth-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: "system"
+      POSTGRES_PASSWORD: "system"
+      POSTGRES_DB: "authorizathion"
+    volumes:
+      - data:/var/lib/postgresql/data
+
+volumes:
+  data:
