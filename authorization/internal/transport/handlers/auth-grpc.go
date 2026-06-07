@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"time"
 
-	rpc "github.com/gox7/AuthorizationRPC/proto/gen"
-	"github.com/gox7/authorizathion/pkg/tokens"
-	"github.com/gox7/authorizathion/pkg/validator"
+	rpc "github.com/mewov/authorization-grpc/proto/gen"
+	"github.com/mewov/authorization-grpc/pkg/tokens"
+	"github.com/mewov/authorization-grpc/pkg/validator"
 )
 
 type (

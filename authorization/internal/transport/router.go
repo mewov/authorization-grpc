@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	proto "github.com/gox7/AuthorizationRPC/proto/gen"
-	"github.com/gox7/authorizathion/internal/services"
-	"github.com/gox7/authorizathion/internal/transport/handlers"
-	"github.com/gox7/authorizathion/models"
+	proto "github.com/mewov/authorization-grpc/proto/gen"
+	"github.com/mewov/authorization-grpc/internal/services"
+	"github.com/mewov/authorization-grpc/internal/transport/handlers"
+	"github.com/mewov/authorization-grpc/models"
 	"google.golang.org/grpc"
 )
 

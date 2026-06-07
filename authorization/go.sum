@@ -25,8 +25,8 @@ github.com/goccy/go-yaml v1.18.0/go.mod h1:XBurs7gK8ATbW4ZPGKgcbrY1Br56PdM69F7Lk
 github.com/golang-jwt/jwt/v5 v5.3.0 h1:pv4AsKCKKZuqlgs5sUmn4x8UlGa0kEVt/puTpKx9vvo=
 github.com/golang-jwt/jwt/v5 v5.3.0/go.mod h1:fxCRLWMO43lRc8nhHWY6LGqRcf+1gQWArsqaEUEa5bE=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
-github.com/gox7/AuthorizationRPC/proto v0.0.0-20251030192647-5284722cd1c9 h1:r0e+1tjdaNfFUMAwbA3jGK/PZPfAi4f+5criHuV8Cis=
-github.com/gox7/AuthorizationRPC/proto v0.0.0-20251030192647-5284722cd1c9/go.mod h1:7RS14BCZwLr6RX36AdPOH83/8xSvDpE4vfNsHRSKHYM=
+github.com/mewov/authorization-grpc/proto v0.0.0-20251030192647-5284722cd1c9 h1:r0e+1tjdaNfFUMAwbA3jGK/PZPfAi4f+5criHuV8Cis=
+github.com/mewov/authorization-grpc/proto v0.0.0-20251030192647-5284722cd1c9/go.mod h1:7RS14BCZwLr6RX36AdPOH83/8xSvDpE4vfNsHRSKHYM=
 github.com/gox7/protos-auth v0.0.0-20251030151612-c9e122949752 h1:KvtziAUhfYx1G/rpw7RCemXT7HfNiDAAAcnyHltbeXQ=
 github.com/gox7/protos-auth v0.0.0-20251030151612-c9e122949752/go.mod h1:hpkMihXG4DuduMPzUf0YJi2syKAvQ19H5imJnzy3A/U=
 github.com/jmoiron/sqlx v1.4.0 h1:1PLqN7S1UYp5t4SrVVnt4nUVNemrDAtxlulVe+Qgm3o=

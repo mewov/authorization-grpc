@@ -3,7 +3,7 @@ package services
 import (
 	"os"
 
-	"github.com/gox7/authorizathion/models"
+	"github.com/mewov/authorization-grpc/models"
 )
 
 func NewConfig(model *models.LocalConfig) {

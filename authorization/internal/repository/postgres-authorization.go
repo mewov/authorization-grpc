@@ -3,7 +3,7 @@ package repository
 import (
 	"time"
 
-	"github.com/gox7/authorizathion/models"
+	"github.com/mewov/authorization-grpc/models"
 )
 
 func (p *Postgres) RegisterUser(login, email, password, client, role string) (int64, error) {

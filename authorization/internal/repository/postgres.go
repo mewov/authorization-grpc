@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/gox7/authorizathion/models"
+	"github.com/mewov/authorization-grpc/models"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 )
