@@ -1,4 +1,4 @@
-module github.com/gox7/AuthorizationRPC/proto
+module github.com/mewov/authorization-grpc/proto
 
 go 1.24.5
 
