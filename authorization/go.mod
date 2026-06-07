@@ -1,4 +1,4 @@
-module github.com/gox7/authorizathion
+module github.com/mewov/authorization-grpc
 
 go 1.24.5
 
